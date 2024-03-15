@@ -1,11 +1,12 @@
 import BookItems from "./BookItems";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Home() {
+function Categories() {
   return (
     <div className="container">
+      <h1>Categories</h1>
     </div>
   );
 }
 
-export default Home;
+export default Categories;
