@@ -1,14 +1,4 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-
-/*import React, { useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
 const SearchBar = () => {
@@ -16,7 +6,7 @@ const SearchBar = () => {
   const [books, setBooks] = useState([]);
 
   const handleSearch = async () => {
-    const API_KEY = 'YOUR_API_KEY'; // Replace with your actual API key
+    const API_KEY = 'AIzaSyA7RwoPLux_y-pGPAnOFeQ1ryw91yiiwcI'; 
     const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${API_KEY}`;
 
     try {
@@ -44,7 +34,4 @@ const SearchBar = () => {
   );
 };
 
-export default SearchBar;*/
-
-
-)
+export default SearchBar;
