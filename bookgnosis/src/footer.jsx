@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="bookgnosis-block d-flex flex-column align-items-left mb-4">
               <h4 className="text-muted mb-3">Bookgnosis</h4>
               <p className="text-muted mb-4" align="left">Welcome to our book reading app.</p>
-              <div className="social-icons d-flex flex-row">
+              <div className="social-icons d-flex flex-row" align="left">
                 <a href="https://www.facebook.com" className="me-3">
                   <img src={facebookIcon} alt="Facebook" className="img-fluid smlicon" />
                 </a>
