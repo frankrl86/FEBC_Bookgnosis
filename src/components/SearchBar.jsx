@@ -1,15 +1,6 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom/client'
+import { useState } from 'react';
 import axios from 'axios';
-import App from './App.jsx'
-import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SearchBar = () => {
   const [query, setQuery] = useState('');
