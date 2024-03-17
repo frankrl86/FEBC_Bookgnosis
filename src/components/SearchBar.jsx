@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SearchBar = () => {
   const [query, setQuery] = useState('');
