@@ -18,7 +18,7 @@ function Header() {
           </div>
         </div>
         <div className="col-lg-6">
-          <img src="src/assets/iStock-1016131800.webp" alt="Book picture" className="img-fluid rounded-start-5 float-end p-0"></img>
+          <img src="iStock-1016131800.webp" alt="Book picture" className="img-fluid rounded-start-5 float-end p-0"></img>
         </div>
       </div>
 
