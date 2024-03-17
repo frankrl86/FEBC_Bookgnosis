@@ -1,2 +1,11 @@
-.shadow:hover{background-color: darkgrey;}
-.bold{font-weight: bolder;}
+.shadow:hover {
+  background-color: darkgrey;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.search {
+    background-color: #bbbbbb;
+}
