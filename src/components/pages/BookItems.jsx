@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-const placeholderImage = 'https://placehold.co/150x150';
+import placeholderImage from 'https://placehold.co/150x150';
 
 function BookItems(props) {
   const books = props.books;
