@@ -9,7 +9,7 @@ function BookItems(props) {
   return (
     <div className="container text-center">
       <div className="section-header" style={{ padding: '40px 0' }}>
-        <h1>{props.title}</h1>
+        <h1 className='maroon'>{props.title}</h1>
         <p>{props.description}</p>
       </div>
 

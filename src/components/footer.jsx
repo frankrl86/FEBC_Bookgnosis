@@ -1,4 +1,5 @@
 import '../index.css';
+import bookgnosis from '/Logo-xsml.png'
 
 const Footer = () => {
   return (
@@ -6,7 +7,8 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="bookgnosis-block d-flex flex-column align-items-left mb-4">
-            <h4 className="text-muted mb-3">Bookgnosis</h4>
+            {/* <h4 className="text-muted mb-3"></h4> */}
+            <img src={bookgnosis} alt="" />
             <p className="text-muted mb-4 text-start">Welcome to our book reading app.</p>
             <div className="social-icons d-flex flex-row text-start">
               <a href="https://www.facebook.com" className="me-3">

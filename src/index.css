@@ -1,3 +1,35 @@
+.hero{
+background-image: url('/public/PHOTO.jpg');
+background-size: cover;
+background-position: center;
+height: 350px;
+color: lightgray;
+padding: 20px;
+}
+.btn-search{
+background-color:goldenrod;
+}
+
+
+.hero-box {
+  /* background-color: #6c757d; */
+}
+.p{
+  max-width: 50%;
+}
+.titles h1, .titles h2{
+  margin-bottom: 30px;
+}
+
+.hero-text{
+  font-size: medium;
+  width: 80%;
+}
+
+.maroon{
+  color: maroon;
+}
+
 /* footer css just a suggestion. Clearly this will need updating when we see what the standard css, fonts, etc, used will be */
 
 .footer {
