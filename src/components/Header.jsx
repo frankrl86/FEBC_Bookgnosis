@@ -84,7 +84,7 @@ function Header() {
           </div>
         </div>
         <div className="col-sm-12 col-xl-1 p-3">
-          <button type="button" className="btn btn-primary">
+          <button type="button" className="btn-search">
             Search
           </button>
         </div>
