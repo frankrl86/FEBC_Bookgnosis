@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
-import bookgnosis from '../assets/images/Logo.png'
+import bookgnosis from '/Logo-small.png'
 
 function Navigation() {
   return (

@@ -1,5 +1,5 @@
 .hero{
-background-image: url('./assets/images/headerBackground.jpg');
+background-image: url('/public/PHOTO.jpg');
 background-size: cover;
 background-position: center;
 height: 350px;
