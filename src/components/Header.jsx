@@ -7,17 +7,12 @@ function Header() {
         <div className="d-flex hero-box">
           <div className="p">
             <div className="titles">
-              <h1 className="header-title ">Welcome to BookGnosis!</h1>
-              <h2 className="">Expand Your Horizons with Ease!</h2>
+              <h1 className="header-title ">Welcome!</h1>
+              <h2 className="">Expand Your Knowledge with Ease!</h2>
             </div>
-
             <p className="hero-text text-lighter ">
-              Dive into a world of knowledge at your fingertips. With our
-              platform, users can seamlessly search through an extensive
-              collection of books and articles tailored to their preferences.
-              Whether you&apos;re exdelving into the latest bestseller or
-              uncovering hidden gems in niche topics, our library has something
-              for everyone.
+              Find the latest bestseller and uncover the hidden gems of literature with the click of a button.
+              Our library has something for everyone.
             </p>
           </div>
         </div>
@@ -82,7 +77,7 @@ function Header() {
                   <option value="">Language</option>
                   <option value="filter1">English</option>
                   <option value="filter2">Spanish</option>
-                  <option value="filter3">Portughese</option>
+                  <option value="filter3">Portuguese</option>
                 </select>
               </div>
             </div>
