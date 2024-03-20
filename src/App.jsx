@@ -5,8 +5,10 @@ import Author from "./components/pages/Author";
 import Genre from "./components/pages/Genre";
 import SignUp from "./components/pages/SignUp";
 import Navigation from "./components/Navigation";
-import SearchBar from './components/SearchBar'
+import SearchBar from './components/SearchBarfooter'
 import Footer from './components/footer'
+import DisplayMainBook from './components/pages/Displaymainbook';
+import DisplayPage from './components/pages/Displaypage';
 
 function App() {
   return (
@@ -22,9 +24,10 @@ function App() {
           <Route path="/genre" element={<Genre />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/signUp" element={<SignUp />} />
+          <Route path="/mainbook" element={<DisplayMainBook/>} />
+          <Route path="/resultbooks" element={<DisplayPage/>} />
         </Routes>
       </Router>
-      <SearchBar />
       <Footer />
     </>
   );

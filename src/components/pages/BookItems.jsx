@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 const placeholderImage = 'https://placehold.co/150x150';
 
@@ -23,7 +24,7 @@ function BookItems(props) {
                   <img src={book.image || placeholderImage} className="card-img-top" alt={book.title} />
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <button className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</button>
+                  <Link to="/mainbook" className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
                 </div>
               </div>
             </div>
@@ -41,7 +42,7 @@ function BookItems(props) {
                   <img src={book.image || placeholderImage} className="card-img-top" alt={book.title} />
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <button className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</button>
+                  <Link to="/mainbook" className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
                 </div>
               </div>
             </div>
