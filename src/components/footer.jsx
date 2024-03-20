@@ -30,7 +30,7 @@ const Footer = () => {
           <div className="col">
             <h5 className="maroon">About</h5>
             <ul className="list-unstyled text-start text-muted">
-              <li>Our Team</li>
+              <li><a href="/about">Our Team</a></li>
               <li>Our Mission</li>
             </ul>
           </div>
