@@ -40,7 +40,7 @@ function Home() {
       <Header />
       <BookItems
         title="Explore our book collection"
-        description="Here are some of our favourite books. Exlore the most popular titles on our collection."
+        description="Here are some of our favourite books. Explore the most popular titles on our collection."
         books={books}
       />
     </div>
