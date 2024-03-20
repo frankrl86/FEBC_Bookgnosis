@@ -1,6 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 function Header() {
+const navigate=useNavigate()
+const handleClick=()=>{
+  navigate("/resultbooks")
+}
   return (
     <div className="container-fluid pt-3 m-0 ">
       <div className="hero">
@@ -84,7 +89,7 @@ function Header() {
           </div>
         </div>
         <div className="col-sm-12 col-xl-1 p-3">
-          <button type="button" className="btn-search">
+          <button onClick={handleClick} type="button" className="btn-search">
             Search
           </button>
         </div>
