@@ -1,5 +1,5 @@
 .hero{
-background-image: url('/public/PHOTO.jpg');
+background-image: url('/PHOTO.jpg');
 background-size: cover;
 background-position: center;
 height: 350px;
@@ -11,7 +11,7 @@ background-color:goldenrod;
 }
 
 
-.hero-box {
+.hero-box{
   /* background-color: #6c757d; */
 }
 .p{
@@ -48,7 +48,7 @@ background-color:goldenrod;
 .footer-right {
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 40%;
 }
 
 .footer-column {

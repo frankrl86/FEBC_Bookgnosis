@@ -1,5 +1,7 @@
 import '../index.css';
 import bookgnosis from '/Logo-xsml.png'
+import SearchBar from './SearchBarfooter';
+
 
 const Footer = () => {
   return (
@@ -7,8 +9,8 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-6">
           <div className="bookgnosis-block d-flex flex-column align-items-left mb-4">
-            {/* <h4 className="text-muted mb-3"></h4> */}
-            <img src={bookgnosis} alt="" />
+            <h4 className="maroon mb-3">BOOKNOSIS</h4>
+            {/* <img src={bookgnosis} alt="" /> */}
             <p className="text-muted mb-4 text-start">Welcome to our book reading app.</p>
             <div className="social-icons d-flex flex-row text-start">
               <a href="https://www.facebook.com" className="me-3">
@@ -23,31 +25,30 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 footer-right">
-          <div className="footer-column">
-            <h5 className="text-muted">About</h5>
+        <div className="col-md-6">
+          <div className='row'>
+          <div className="col">
+            <h5 className="maroon">About</h5>
             <ul className="list-unstyled text-start text-muted">
-              <li>About</li>
               <li>Our Team</li>
               <li>Our Mission</li>
             </ul>
           </div>
-          <div className="footer-column">
-            <h5 className="text-muted">Discover</h5>
+          <div className="col">
+            <h5 className="maroon">Discover</h5>
             <ul className="list-unstyled text-start text-muted">
-              <li>Discover</li>
               <li>Authors</li>
               <li>Genres</li>
               <li>Popular Books</li>
             </ul>
           </div>
-          <div className="footer-column">
-            <h5 className="text-muted">Support</h5>
+          <div className="col">
+            <h5 className="maroon">Support</h5>
             <ul className="list-unstyled text-start text-muted">
-              <li>Support</li>
               <li>Help Centre</li>
               <li>Contact Us</li>
             </ul>
+          </div>
           </div>
         </div>
       </div>
