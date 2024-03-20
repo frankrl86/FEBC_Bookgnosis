@@ -7,7 +7,7 @@ const handleClick=()=>{
   navigate("/resultbooks")
 }
   return (
-    <div className="container-fluid pt-3 m-0 ">
+    <div className="container-fluid pt-3 m-0">
       <div className="hero">
         <div className="d-flex hero-box">
           <div className="p">

@@ -98,4 +98,3 @@ function BookItems(props) {
 }
 
 export default BookItems;
-

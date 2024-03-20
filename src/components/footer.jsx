@@ -5,13 +5,13 @@ import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="col-lg-12 col-sm-12 footer bg-white container mt-5 justify-content-around">
+    <footer className="container pt-5">
       <div className="row">
-        <div className="">
-          <div className="bookgnosis-block d-flex flex-column align-items-left mb-4">
-            <img src="/public/BookGnosis-lg.png" alt="BookGnosis" className="img-fluid" style={{ height: '30px', width: 'auto' }} />
-            <p className="text-muted mb-4 text-start">Welcome to our book reading app.</p>
-            <div className="social-icons d-flex flex-row text-start justify-content-around">
+        <div className="col-12 col-md-4">
+          <div className="bookgnosis-block d-flex flex-column mb-4">
+            <img src="/Logo-small.png" alt="BookGnosis" className="img-fluid align-self-center" style={{ width: '250px' }} />
+            <p className="text-muted mb-4 align-self-center">Welcome to our book reading app.</p>
+            <div className="d-flex justify-content-around">
               <a href="https://www.facebook.com" alt="Facebook" style={{ color: 'blue' }}>
                 <BsFacebook size={32} />
               </a>
@@ -24,34 +24,34 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="col-lg-6 col-sm-12">
-        <div className='row'>
-          <div className="col-lg-4">
-            <h5 className="maroon">About</h5>
-            <ul className="list-unstyled text-start text-muted">
-              <li><a href="/about">Our Team</a></li>
-              <li><a href="/mission">Our Mission</a></li>
-            </ul>
-          </div>
-          <div className="col-lg-4">
-            <h5 className="maroon">Discover</h5>
-            <ul className="list-unstyled text-start text-muted">
-              <li>Authors</li>
-              <li>Genres</li>
-              <li>Popular Books</li>
-            </ul>
-          </div>
-          <div className="col-lg-4">
-            <h5 className="maroon">Support</h5>
-            <ul className="list-unstyled text-start text-muted">
-              <li>Help Centre</li>
-              <li>Contact Us</li>
-            </ul>
+        <div className="col-12 col-md-8 align-self-center">
+          <div className="row d-flex justify-content-around">
+            <div className="col-sm-12 col-md-4">
+              <h5 className="maroon">About</h5>
+              <ul className="list-unstyled text-start text-muted">
+                <li><a href="/about" className="text-decoration-none">Our Team</a></li>
+                <li><a href="/mission" className="text-decoration-none">Our Mission</a></li>
+              </ul>
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <h5 className="maroon">Discover</h5>
+              <ul className="list-unstyled text-start text-muted">
+                <li>Authors</li>
+                <li>Genres</li>
+                <li>Popular Books</li>
+              </ul>
+            </div>
+            <div className="col-sm-12 col-md-4">
+              <h5 className="maroon">Support</h5>
+              <ul className="list-unstyled text-start text-muted">
+                <li>Help Centre</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-
+      <br></br>
     </footer>
   );
 };

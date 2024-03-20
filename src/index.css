@@ -6,12 +6,11 @@ height: 350px;
 color: lightgray;
 padding: 20px;
 }
-.btn-search{
-background-color:goldenrod;
+.btn-search {
+  background-color:goldenrod;
 }
 
-
-.hero-box{
+.hero-box {
   /* background-color: #6c757d; */
 }
 .p{
@@ -30,43 +29,6 @@ background-color:goldenrod;
   color: maroon;
 }
 
-/* footer css just a suggestion. Clearly this will need updating when we see what the standard css, fonts, etc, used will be */
-
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-.footer-left {
-  width: 30%;
-}
-
-.footer-right {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.footer-column {
-  flex: 1;
-}
-
-.footer-column h3 {
-  margin-bottom: 10px;
-}
-
-.footer-column ul {
-  list-style-type: none;
-}
-
-.footer-column ul li {
-  margin-bottom: 5px;
-}
-
 h4 {
   color: #6c757d;
   text-align: left;
@@ -75,15 +37,6 @@ h4 {
 h5 {
   color: #6c757d;
   text-align: left;
-}
-
-.footer-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-column h3 {
-  margin-bottom: 0;
 }
 
 .smlicon {

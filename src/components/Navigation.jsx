@@ -6,7 +6,7 @@ function Navigation() {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src="/public/BookGnosis-lg.png" alt="BookGnosis" className="img-fluid"  style={{ height: '30px', width: 'auto'}} />
+          <img src="public/BookGnosis-lg.png" alt="BookGnosis" className="img-fluid"  style={{ height: '30px', width: 'auto'}} />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
@@ -28,7 +28,6 @@ function Navigation() {
             <li className="nav-item">
               <Link className="nav-link shadow bold maroon" to="/signUp">Sign In / Sign Up</Link>
             </li>
-
           </ul>
         </div>
       </div>
