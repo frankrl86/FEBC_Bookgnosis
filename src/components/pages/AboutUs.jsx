@@ -4,22 +4,22 @@ import Navigation from '../Navigation';
 const teamMembers = [
     {
         name: 'Alexandra Ionescu',
-        photo: 'https://via.placeholder.com/150',
+        photo: '/Alex.jpg',
         github: 'https://github.com/ionescuea',
     },
     {
         name: 'Fernanda Lujan',
-        photo: 'https://via.placeholder.com/150',
+        photo: '/Fernanda.png',
         github: 'https://github.com/MaFer74',
     },
     {
         name: 'Frank Gabriel Rodriguez Lee',
-        photo: 'https://via.placeholder.com/150',
+        photo: '/Frank.png',
         github: 'https://github.com/frankrl86',
     },
     {
         name: 'Jessica Santos',
-        photo: 'https://via.placeholder.com/150',
+        photo: '/Jessica.jpg',
         github: 'https://github.com/jess-santos',
     },
     {
@@ -33,7 +33,7 @@ function AboutUs() {
     return (
         <div>
             <div className="container">
-                <h1>About Us</h1>
+            <h1 className="about-us-title">Our team</h1>
                 <div className="row">
                     {teamMembers.map((member, index) => (
                         <div key={index} className="col-md-4 mb-4">
