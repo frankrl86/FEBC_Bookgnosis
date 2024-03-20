@@ -10,6 +10,7 @@ import Footer from './components/footer'
 import DisplayMainBook from './components/pages/Displaymainbook';
 import DisplayPage from './components/pages/Displaypage';
 import AboutUs from "./components/pages/AboutUs";
+import OurMission from "./components/pages/OurMission";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/mainbook" element={<DisplayMainBook/>} />
           <Route path="/resultbooks" element={<DisplayPage/>} />
           <Route path="/about" element={<AboutUs/>} />
+          <Route path="/mission" element={<OurMission/>} />
         </Routes>
       </Router>
       <Footer />
