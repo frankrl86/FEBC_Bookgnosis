@@ -1,27 +1,28 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom/client'
-import axios from 'axios';
-import App from './App.jsx'
-import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import axios from "axios";
+import App from "./App.jsx";
+import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);
 
 const SearchBar = () => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const [books, setBooks] = useState([]);
 
   const handleSearch = async () => {
-    const API_KEY = 'AIzaSyA7RwoPLux_y-pGPAnOFeQ1ryw91yiiwcI'; 
+    const API_KEY = "AIzaSyA7RwoPLux_y-pGPAnOFeQ1ryw91yiiwcI";
     const url = `https://www.googleapis.com/books/v1/volumes?q=${query}&key=${API_KEY}`;
 
     try {
       const response = await axios.get(url);
       setBooks(response.data.items);
+      console.log("Doing click");
     } catch (error) {
       console.error(error);
     }
@@ -29,13 +30,17 @@ const SearchBar = () => {
 
   return (
     <div>
-      <input type="text" value={query} onChange={(e) => setQuery(e.target.value)} />
+      <input
+        type="text"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+      />
       <button onClick={handleSearch}>Search</button>
       {books.length > 0 && (
         <ul>
           {books.map((book) => (
             <li key={book.id}>
-              {book.volumeInfo.title} by {book.volumeInfo.authors?.join(', ')}
+              {book.volumeInfo.title} by {book.volumeInfo.authors?.join(", ")}
             </li>
           ))}
         </ul>
