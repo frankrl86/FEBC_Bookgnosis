@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function DisplayMainBook() {
     const book = 
-      { title: "The Witch, The Lion and the Wardrobe",
+      { title: "The The Lion, The Witch and the Wardrobe",
     author:"Cs Lewis",
     series: "Chronicles of Narnia",
-    description: "this books is about....",
-    image: "./Bookgnosis.png"
+    description: "While playing, Lucy and her siblings find a wardrobe that lands them in a mystical place called Narnia. Here they realise that it was fated and they must now unite with Aslan to defeat an evil queen.....",
+    image: "/Narnia.jpg"
     }
     
   
