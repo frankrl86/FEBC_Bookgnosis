@@ -140,3 +140,11 @@ h5 {
 .btn-primary:hover {
   background-color: #495057; 
 }
+
+.our-mission {
+  text-align: center;
+}
+
+.mission-section {
+  margin-bottom: 20px;
+}
