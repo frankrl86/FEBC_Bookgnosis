@@ -28,8 +28,8 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/mainbook/:title" element={<DisplayMainBook/>} />
           <Route path="/resultbooks" element={<DisplayPage/>} />
-          <Route path="/about" element={<AboutUs/>} />
-          <Route path="/mission" element={<OurMission/>} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/mission" element={<OurMission />} />
         </Routes>
       </Router>
       <Footer />
