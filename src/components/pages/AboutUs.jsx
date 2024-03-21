@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../Navigation';
+import BookItems from "./BookItems";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const teamMembers = [
