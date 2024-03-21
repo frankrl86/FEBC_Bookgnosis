@@ -1,4 +1,5 @@
 import '../index.css';
+import BookGnosisLg from '/Logo-small.png'
 import { BsFacebook } from "react-icons/bs";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -9,7 +10,7 @@ const Footer = () => {
       <div className="row">
         <div className="col-12 col-md-4">
           <div className="bookgnosis-block d-flex flex-column mb-4">
-            <img src="/Logo-small.png" alt="BookGnosis" className="img-fluid align-self-center" style={{ width: '250px' }} />
+            <img src={BookGnosisLg} alt="BookGnosis" className="img-fluid align-self-center" style={{ width: '250px' }} />
             <p className="text-muted mb-4 align-self-center">Welcome to our book reading app.</p>
             <div className="d-flex justify-content-around">
               <a href="https://www.facebook.com" alt="Facebook" style={{ color: 'blue' }}>
