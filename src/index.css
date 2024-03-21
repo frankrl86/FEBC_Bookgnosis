@@ -93,3 +93,20 @@ h5 {
 .btn-primary:hover {
   background-color: #495057; 
 }
+
+.mission-section {
+  text-align: center;
+  padding: 29px 20px;
+  margin-right: 500px;
+  margin-left: 500px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mission-section h1 {
+  color: maroon;
+}
+
+.mission-section p {
+  font-size: 20px;
+}
