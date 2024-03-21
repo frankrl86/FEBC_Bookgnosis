@@ -18,36 +18,25 @@ let book = books.filter(element => element.title === params.title)
    console.log(book);
   }, [book])
   
-  // const book = 
-      
-  //   { title: "The The Lion, The Witch and the Wardrobe",
-  //   author:"Cs Lewis",
-  //   series: "Chronicles of Narnia",
-  //   description: "While playing, Lucy and her siblings find a wardrobe that lands them in a mystical place called Narnia. Here they realise that it was fated and they must now unite with Aslan to defeat an evil queen.....",
-  //   image: "/Narnia.jpg"
-  //   }
-    
-  
     return (
       <div className="container">
         <div class="card mb-3">
   <div class="row g-0">
     <div class="col-md-4">
-      {/* <img src={book.image} class="img-fluid rounded-start" alt={book.title}/> */}
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        {/* <h5 class="card-title">{book?.title}</h5> */}
         <div>
             <h5 className="card-title" style={{ textAlign: 'left', marginBottom: '10px' }}>{book?.title}</h5>
+            <img src={book?.formats['image/jpeg']} alt={book?.title} className="card-img-top" style={{ width: 'auto', height: '250px' }} />        
             {book?.authors?.map(author=>{
-              return <p key={author.name}>{author.name}</p>
+              return <p key={author.name}><b>Author:</b> {author.name}</p>
             })}
-            <img src={book?.formats['image/jpeg']} alt={book?.title} className="card-img-top" style={{ width: '100px', height: '150px' }} />
-                </div>
-        {/* <p className="card-text">{book?.author}</p>
-        <p class="card-text">{book?.description}</p>
-        <p class="card-text"><small class="text-body-secondary">{book?.series}</small></p> */}
+            <p><b>Book Categories:</b> {book?.bookshelves.join(', ')}</p>
+            <p><b>Languages:</b> {book?.languages.join(', ')}</p>
+            <p><b>Copyright:</b> {book?.copyright}</p>
+            <p><b>Read:</b> <a href={book?.formats['text/html']} target="_blank" rel="noopener noreferrer">{book?.title}</a></p>
+        </div>
       </div>
     </div>
   </div>
