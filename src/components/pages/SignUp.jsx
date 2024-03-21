@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { GoogleLogin } from '@react-oauth/google';
 
 function SignUp() {
+   
   return (
     <div className="container">
       <h1>SignUp</h1>
@@ -32,6 +34,18 @@ function SignUp() {
   </div>
   <button type="submit" className="btn btn-primary">Sign In</button>
 </form>
+<div><h4>Login Using your Google account</h4> 
+  <GoogleLogin
+  onSuccess={credentialResponse => {
+    console.log(credentialResponse);
+  }}
+  onError={() => {
+    console.log('Login Failed');
+  }}
+/>
+          </div>
+
+
         </div>
       </div>
     </div>

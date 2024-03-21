@@ -5,15 +5,18 @@ import App from "./App.jsx";
 import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import GlobalContext from './Context/index.jsx'
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
+  <GoogleOAuthProvider clientId="885962381131-j8jh2j97errt98nvudk7034nhjjn0qr6.apps.googleusercontent.com">
   <React.StrictMode>
   <GlobalContext>
   <App />
   </GlobalContext>
   
   </React.StrictMode>
+  </GoogleOAuthProvider>
 );
 
 const SearchBar = () => {
