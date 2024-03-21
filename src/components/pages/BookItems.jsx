@@ -27,7 +27,9 @@ function BookItems(props) {
 
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <Link to={book.formats['text/html']} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
+                  {/* <Link to={book.formats['text/html']} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link> */}
+                  <Link to={"/mainbook/"+book.title} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
+
                 </div>
               </div>
             </div>
@@ -46,7 +48,7 @@ function BookItems(props) {
 
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <Link to={book.formats['text/html']} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
+                  <Link to={"/mainbook/"+book.title} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
                 </div>
               </div>
             </div>
@@ -66,7 +68,7 @@ function BookItems(props) {
 
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <Link to={book.formats['text/html']} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
+                  <Link to={"/mainbook/"+book.title} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
                 </div>
               </div>
             </div>
@@ -85,7 +87,7 @@ function BookItems(props) {
 
                 </div>
                 <div className="d-flex justify-content-end mt-2">
-                  <Link to={book.formats['text/html']} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
+                  <Link to={"/mainbook/"+book.title} className="btn btn-primary" style={{ backgroundColor: '#bbbbbb', border: 'none', padding: '8px 16px', marginBottom: 'auto' }}>Read Now</Link>
                 </div>
               </div>
             </div>
@@ -98,4 +100,3 @@ function BookItems(props) {
 }
 
 export default BookItems;
-

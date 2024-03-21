@@ -26,7 +26,7 @@ function App() {
           <Route path="/genre" element={<Genre />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/signUp" element={<SignUp />} />
-          <Route path="/mainbook" element={<DisplayMainBook/>} />
+          <Route path="/mainbook/:title" element={<DisplayMainBook/>} />
           <Route path="/resultbooks" element={<DisplayPage/>} />
           <Route path="/about" element={<AboutUs/>} />
           <Route path="/mission" element={<OurMission/>} />
