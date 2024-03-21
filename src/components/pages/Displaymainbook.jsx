@@ -1,4 +1,3 @@
-
 import {useContext, useEffect, useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { GlobalData } from '../../Context';
@@ -58,3 +57,4 @@ let book = books.filter(element => element.title === params.title)
   }
   
   export default DisplayMainBook;
+  
