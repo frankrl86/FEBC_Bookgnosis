@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import BookGnosisLg from '/Logo-small.png'
 
 function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img src="public/BookGnosis-lg.png" alt="BookGnosis" className="img-fluid"  style={{ height: '30px', width: 'auto'}} />
+          <img src={BookGnosisLg} alt="BookGnosis" className="img-fluid"  style={{ height: '30px', width: 'auto'}} />
         </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
